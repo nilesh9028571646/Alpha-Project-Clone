@@ -1,0 +1,361 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+/* Header Section starts here */
+#HeaderSection{
+    color:white;
+    width: 100%;
+}
+#HeaderSection div{
+    display:inline-block;
+}
+#HeaderSection div h1{
+    font-size: 17px;
+    margin: 19px 0px 0px 15px;
+}
+#HeaderSection div h1 span{
+    font-weight:100;
+    
+}
+#OptionDiv{
+    float: right;
+    margin-right: 20px;
+}
+
+
+#OptionDiv ul li{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 38px;
+
+}
+#SignUp{
+    border:2px solid #FFFFFF;
+    border-radius: 6px;
+    padding:3px 16px 3px 16px;
+}
+.fa-angle-down{
+    margin-right: 6px;
+    font-weight: 900;
+}
+/* HeaderSection ends here */
+
+/* BodySection starts here */
+
+#BodySection{
+    margin-top: 120px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#BodySection h1{
+    font-size: 57px;
+}
+
+#BodySection p{
+    font-size: 21px;
+    margin-top: -28px;
+    margin-bottom: 35px;
+}
+#BodySection div button:nth-child(1){
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px 70px;
+    font-size: 17px;
+    color: #77726e;
+}
+
+#BodySection div button:nth-child(2){
+    background-color: transparent;
+    border: 2px solid #bab9b6;
+    border-radius: 5px;
+    padding: 15px 65px;
+    font-size: 17px;
+    color: white;
+    margin-left: 27px;
+
+}
+
+/* BodySection starts here */
+
+/* DescripSection starts here */
+ #DescripSection{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 135px;
+    
+    
+ }
+
+ #DescripSection h1{
+    /* margin-top: 30px; */
+    font-size: 39px;
+    color: #717171;
+    padding-top: 55px;
+    margin-bottom: 19px;
+ }
+ #DescripSection p{
+    font-size: 22px;
+    padding: 35px 0px;
+    border-top: 1px solid gray;
+    display: inline-block;
+    color:gray;
+ }
+
+ #DescripSection img{
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    position: relative;
+    bottom: -6px;
+ }
+
+/* DescripSection ends here */
+
+/* IconSection starts here */
+  #IconSection {
+    width:64%;
+     margin: 0 auto;
+     background-color: white;
+     margin-top: 44px;
+     border-right: 10px;
+     border-radius: 5px;
+     padding:50px
+    
+    
+
+  }
+  #IconSection h1{
+    font-size: 30px;
+    color: #7b7b7b;
+    font-weight: 100;
+  }
+  #IconSection div{
+    width:49%;
+    display: inline-block;
+    text-align: center;
+    
+  }
+  #IconSection p{
+    font-size: 18px;
+    color:#7b7b7b
+  }
+  
+  
+
+    .fa-bolt{
+        font-size: 50px;
+        margin-top: 53px;
+        padding:17px 33px;
+        background-color: #e89980;
+        border-radius: 100%;
+        color:white;
+        margin: 67px 0px 15px 0px;;
+
+    }
+
+    .fa-area-chart{
+       
+        font-size: 35px;
+        color: white;
+        margin: 67px 0px 15px 0px;
+        padding:26px 29px;
+        background-color: #7fcdb8;
+        border-radius: 100%;
+
+
+    }
+
+    .fa-cloud{
+        font-size: 45px;
+        color: white;
+        padding:25px 25px;
+        background-color: #90b0ba;
+        margin: 67px 0px 15px 0px;
+        border-radius: 100%;
+
+
+    }
+
+    .fa-lock{
+        font-size: 53px;
+        color: white;
+        margin: 67px 0px 15px 0px;
+        padding:21px 34px;
+        background-color: #e5cb95;
+        border-radius: 100%;
+
+
+    }
+
+    #IconDiv1{
+        border-right: 1px solid #e5e5e5;
+        margin: 0px 0px 0px -1px;
+    }
+    #IconDiv2{
+        border-bottom: 1px solid #e5e5e5;
+        margin: 0px 0px 0px -5px;
+
+    }
+    #IconDiv3{
+        border-top: 1px solid #e5e5e5;
+        
+    }
+    #IconDiv4{
+        border-left: 1px solid #e5e5e5;
+        margin: 0px 0px 0px -4px;
+
+    }
+    
+/* IconSection ends here */
+
+/* ImgSection  starts here*/
+  #ImgSection{
+    width: 70%;
+    margin: 0 auto;
+    color: #646464;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+  #ImgSection img{
+    width: 100%;
+    border-radius: 5px;
+
+  }
+  #img1{
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 35px;
+    background-color: white;
+    border-radius: 5px;
+
+  }
+  
+  #img2{
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+
+
+  }
+
+  #ImgSection h3{
+    font-size: 30px;
+    font-weight: 100;
+  }
+  #ImgSection p{
+    font-size: 17px;
+    
+  }
+
+  #ImgSection button{
+    font-size: 16px;
+    padding: 14px 32px;
+    font-weight: 100;
+    background-color: white;
+    border: 3px solid #f0f0f0;
+    border-radius: 5px;
+    /* font-weight:bold; */
+    margin-bottom: 50px;
+    margin-top: 25px;
+    color: #7d7e8b;
+
+  }
+
+  #ImgSection button:hover{
+    background-color: whitesmoke;
+  }
+
+
+/* ImgSection  ends here*/
+
+/* footerSection starts here */
+#footerSection1{
+  width: 100%;
+  background-color: #e89980;
+  padding:44px 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+#footerSection1 h1{
+  color: white;
+  font-size: 39px;
+  font-weight: 100;
+}
+/* #footerSection h1{
+  color: white;
+  font-size: 15px;
+} */
+#footerSection1 p{
+  color: white;
+  font-size: 20px;
+}
+#email{
+  padding: 20px 105px 20px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: #FFFFFF66;
+  font-weight: 100;
+
+}
+#email::placeholder{
+  color:white
+}
+#signup-bottom{
+  padding: 20px 51px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 16px;
+  font-size: 15px;
+  color: #e89980;
+  background-color: white;
+
+}
+#footerSection2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#footerSection2 i{
+  font-size: 33px;
+  color:#c6c6c6;
+  margin-left: 28px;
+  margin-bottom: 25px;
+}
+
+#footerSection2 h4{
+  display: inline;
+  margin-right: 10px;
+  /* margin-top: 10px; */
+  color:#646464;
+  font-weight: 100;
+}
+
+.fa-copyright{
+  font-size: 17px !important;
+}
+
+
+/* footerSection ends here */
+
+
+
+
+
+
+
+
